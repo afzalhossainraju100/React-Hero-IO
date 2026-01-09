@@ -66,7 +66,10 @@ const Navbar = () => {
               <ul className="menu menu-horizontal px-1 gap-6">{links}</ul>
             </div>
             <div className="navbar-end">
-              <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white hover:from-[#9F62F2] hover:to-[#632EE3] border-0 gap-2">
+              <a
+                href="https://github.com/afzalhossainraju100"
+                className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white hover:from-[#9F62F2] hover:to-[#632EE3] border-0 gap-2"
+              >
                 <FaGithub />
                 Contribute
               </a>
