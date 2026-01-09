@@ -4,7 +4,7 @@ const Footer = () => {
     return (
       <div className="bg-[#001931]">
         <footer className="w-[90%] mx-auto text-[#ffffff] mt-10">
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-row justify-between items-start">
             <div className="flex gap-2 items-center justify-center">
               <img
                 className="w-[2.5rem] h-[2.5rem]"
@@ -15,7 +15,7 @@ const Footer = () => {
                 HERO.IO
               </a>
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-6">
               <p className="text-[1.35rem]">Social Links</p>
               <nav>
                 <div className="grid grid-flow-col gap-4">
