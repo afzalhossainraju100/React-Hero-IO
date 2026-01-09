@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://picsum.photos/id/101/300/300",
+    "image": "./assets/demoapp1.webp",
     "title": "Task Manager Pro",
     "companyName": "Productive Labs",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/102/300/300",
+    "image": "./assets/demoapp1.webp",
     "title": "FitLife Tracker",
     "companyName": "Healthify",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/103/300/300",
+    "image": "./assets/demoapp1.webp",
     "title": "Budget Buddy",
     "companyName": "FinTech Soft",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/104/300/300",
+    "image": "./assets/demoapp1.webp",
     "title": "Learn JS Fast",
     "companyName": "Code Academy",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/105/300/300",
+    "image": "./assets/demoapp1.webp",
     "title": "WeatherNow",
     "companyName": "SkyTech",
     "id": 5,
@@ -91,7 +91,7 @@
   },
 
   {
-    "image": "https://picsum.photos/id/106/300/300",
+    "image": "./assets/demoapp1.webp",
     "title": "Note Keeper",
     "companyName": "QuickSoft",
     "id": 6,
