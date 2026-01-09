@@ -3,9 +3,20 @@ import ErrorPageImage from '../../assets/error-404.png'
 
 const ErrorPage = () => {
     return (
-        <div className='flex flex-col w-full mx-auto h-100vh justify-center items-center'>
-            <img className='w-1/2' src={ErrorPageImage} alt="Error Page" />
+      <div>
+        <div className="w-[90%] mx-auto flex flex-col items-center justify-center text-center py-20 gap-6">
+          <img className="w-1/3 h-auto" src={ErrorPageImage} alt="Error Page" />
+          <h1 className="text-[#001931] font-semibold text-[3rem]  leading-15 text-center tracking-[-1.2%]">
+            Oops, page not found!
+          </h1>
+          <p className="text-[#627382] font-regular text-[20px] font-normal leading-8 tracking-0">
+            The page you are looking for is not available.
+          </p>
+          <button className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] px-5 py-3 rounded-lg flex flex-row justify-center gap-2 items-center text-[#ffffff]">
+            Go Back!
+          </button>
         </div>
+      </div>
     );
 };
 
