@@ -2,6 +2,7 @@ import React from "react";
 import icondownloads from "../../assets/icondownloads.png";
 import iconreview from "../../assets/iconreview.png";
 import iconratings from "../../assets/iconratings.png";
+import Chart from "../Chart/Chart.jsx";
 
 const AppDetails = () => {
   return (
@@ -50,7 +51,9 @@ const AppDetails = () => {
           </button>
         </div>
       </div>
-      <div></div>
+      <div>
+        <Chart></Chart>
+      </div>
       <div className="mb-10 mt-10">
         <h1>
           <b>Description</b>

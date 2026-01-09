@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaBeer } from "react-icons/fa";
+import logo from '../../assets/logo.png';
 
 
 const Navbar = () => {
@@ -54,7 +55,7 @@ const Navbar = () => {
               <div className="flex gap-2 items-center justify-center">
                 <img
                   className="w-[2.5rem] h-[2.5rem]"
-                  src="logo.png"
+                  src={logo}
                   alt="Logo"
                 />
                 <a className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))] bg-clip-text text-transparent font-bold text-base leading-[26px] tracking-normal text-left capitalize">

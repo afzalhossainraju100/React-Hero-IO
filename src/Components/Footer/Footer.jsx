@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className="flex gap-2 items-center justify-center">
               <img
                 className="w-[2.5rem] h-[2.5rem]"
-                src="logo.png"
+                src={logo}
                 alt="Logo"
               />
               <a className="text-[#ffffff] font-bold text-base leading-[26px] tracking-normal text-left capitalize">
